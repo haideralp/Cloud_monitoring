@@ -79,11 +79,15 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 - It is a managed message queuing service technical professionals and developers use to send, store and retrieve multiple messages of various sizes asynchronously.
 - The service enables users to decouple individual microservices, distributed systems and serverless applications from one another and to scale them without requiring the user to establish and maintain their own message queues.
 
-# Alert Management
+## Alert Management
 
 ## Creating An Alarm on AWS:
     1. 
 
 
+![CPU utilisation done](https://user-images.githubusercontent.com/97620055/186430366-1bb3fe33-a61b-47ad-b965-9f4f351fd832.PNG)
+
 
 ## Configuring SNS:
+
+![SNS subsconfirmed](https://user-images.githubusercontent.com/97620055/186430271-adb02dd0-6528-4f61-a283-9a733fa6ab0a.PNG)
