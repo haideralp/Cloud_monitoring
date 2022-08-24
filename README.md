@@ -59,21 +59,19 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 ## What is Alert Management - Use cases?
 
 - Alert management is a key part of managing modern, complex systems that are composed of many different APIs and microservices. Alerts are qualified, informational records used to assess and monitor systems to assess current or upcoming problems.
--Used Cases:
+## What Actions To Be Taken In Case of Alert ?
+
    - Discover all cloud apps and resources used in your organization
-   - Identify and revoke access to risky unauthorised apps
+   - Identify and revoke access to risky open authorised apps
    - Identify compromised user accounts
    - Enforce DLP policies for sensitive data stored in your cloud apps
    - Enforce adaptive session controls to manage user actions in real-time
-
-## What Actions To Be Taken In Case of Alert ?
-
 
 ## What Is  Amazon Simple Notification Service (SNS) ?
 
 - It is a cloud service for coordinating the delivery of push messages from software applications to subscribing endpoints and clients. All messages published to Amazon SNS are warehoused across several availability zones to prevent loss. 
 
-## What IS Amazon Simple Queue Service (SQS) ?
+## What Is Amazon Simple Queue Service (SQS) ?
 
 - It is a managed message queuing service technical professionals and developers use to send, store and retrieve multiple messages of various sizes asynchronously.
 - The service enables users to decouple individual microservices, distributed systems and serverless applications from one another and to scale them without requiring the user to establish and maintain their own message queues.
