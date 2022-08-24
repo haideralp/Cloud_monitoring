@@ -16,18 +16,19 @@
 
 The following image shows the different AWS resources monitored by Amazon CloudWatch.
 
-Amazon CloudWatch 
+![image](https://user-images.githubusercontent.com/97620055/186393883-a4d01127-ff42-41db-aea7-e6ba4b0a5425.png)
 
-Amazon CloudWatch allows administrators to easily monitor multiple instances and resources from one console by performing the below tasks :
 
-Enables robust monitoring of resources like :
+- Amazon CloudWatch allows administrators to easily monitor multiple instances and resources from one console by performing the below tasks :
 
-- Virtual instances hosted in Amazon EC2
-- Databases located in Amazon RDS
-- Data stored in Amazon S3
-- Elastic Load Balancer
-- Auto-Scaling Groups
-- Other resources
+- Enables robust monitoring of resources like :
+
+ 1. Virtual instances hosted in Amazon EC2
+ 2. Databases located in Amazon RDS
+ 3. Data stored in Amazon S3
+ 4. Elastic Load Balancer
+ 5. Auto-Scaling Groups
+ 6. Other resources
 
 - Monitors, stores and provides access to system and application log files.
 - Provides a catalog of standard reports that you can use to analyze trends and monitor system performance
