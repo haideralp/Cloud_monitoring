@@ -3,6 +3,9 @@
 
 ## What Is Cloud Monitoring ?
 - Cloud monitoring is a broad category that includes monitoring of web and cloud applications, infrastructure, networks, platform, application, and micro-services.
+
+## Four Golden Signals That Should Be Monitored.
+
 ## Benefits of cloud monitoring
 
 - Monitoring is crucial to make sure that all the services which you are using on the cloud are running smoothly and efficiently. Such a strategy should focus on identifying when service-level objectives (SLOs) are not being met, likely negatively affecting the user experience. So, then what are the benefits of leveraging cloud monitoring tools? With cloud monitoring:
@@ -75,3 +78,12 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 
 - It is a managed message queuing service technical professionals and developers use to send, store and retrieve multiple messages of various sizes asynchronously.
 - The service enables users to decouple individual microservices, distributed systems and serverless applications from one another and to scale them without requiring the user to establish and maintain their own message queues.
+
+# Alert Management
+
+## Creating An Alarm on AWS:
+    1. 
+
+
+
+## Configuring SNS:
