@@ -17,7 +17,7 @@
 ## Types of Monitoring:
 
 1. Database monitoring
-- Because most cloud applications rely on databases, this technique reviews processes, queries, availability, and consumption of cloud database resources. This technique can also track queries and data integrity, monitoring connections to show real-time usage data. For security purposes, access requests can be tracked as well. For example, an uptime detector can alert if there’s database instability and can help improve resolution response time from the precise moment that a database goes down.
+   - Because most cloud applications rely on databases, this technique reviews processes, queries, availability, and consumption of cloud database resources. This technique can also track queries and data integrity, monitoring connections to show real-time usage data. For security purposes, access requests can be tracked as well. For example, an uptime detector can alert if there’s database instability and can help improve resolution response time from the precise moment that a database goes down.
 
 2. Website monitoring
    - A website is a set of files that is stored locally, which, in turn, sends those files to other computers over a network. This monitoring technique tracks processes, traffic, availability, and resource utilization of cloud-hosted sites.
@@ -55,3 +55,16 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 - Provides a catalog of standard reports that you can use to analyze trends and monitor system performance
 - Provides various alert capabilities, including rules and triggers high resolutions alarms and sends notifications
 - Collects and provides a real-time presentation of operational data in form of key metrics like CPU utilization, disk storage etc. 
+
+## What is Alert Management - Use cases?
+
+## What Actions To Be Taken In Case of Alert ?
+
+## What Is  Amazon Simple Notification Service (SNS) ?
+
+- It is a cloud service for coordinating the delivery of push messages from software applications to subscribing endpoints and clients. All messages published to Amazon SNS are warehoused across several availability zones to prevent loss. 
+
+## What IS Amazon Simple Queue Service (SQS) ?
+
+- It is a managed message queuing service technical professionals and developers use to send, store and retrieve multiple messages of various sizes asynchronously.
+- The service enables users to decouple individual microservices, distributed systems and serverless applications from one another and to scale them without requiring the user to establish and maintain their own message queues.
