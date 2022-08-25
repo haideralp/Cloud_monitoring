@@ -82,7 +82,7 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 ## Alert Management
 
 ## Creating An Alarm on AWS:
-    1. 
+    1. On the left panel in AWS, naviage to alarms and on top t
 
 
 ![CPU utilisation done](https://user-images.githubusercontent.com/97620055/186430366-1bb3fe33-a61b-47ad-b965-9f4f351fd832.PNG)
@@ -91,3 +91,21 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 ## Configuring SNS:
 
 ![SNS subsconfirmed](https://user-images.githubusercontent.com/97620055/186430271-adb02dd0-6528-4f61-a283-9a733fa6ab0a.PNG)
+
+
+### Warning Tested  - CPU Utilisation > 20
+
+1. Once, the metric is determined and value selected for the alarm to trigger.
+2. I perfomed while loop to get CPU usage over 20 percent. **Red-Line - Target** (See Image Below).
+
+![cpu alarm](https://user-images.githubusercontent.com/97620055/186595030-339da47e-f875-41f6-a7ff-1a5f3c2121fd.PNG)
+
+3. If configured correctly an email will be sent as warning. Please see below: 
+
+![image](https://user-images.githubusercontent.com/97620055/186595686-89ec3558-a715-4ba7-873f-12f013fd9bf2.png)
+
+## AWS Logs Generation and Upload to S3 - 
+
+
+
+
