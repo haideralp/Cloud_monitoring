@@ -6,10 +6,10 @@
 
 ## Four Golden Signals That Should Be Monitored.
 
-   1. Latency
-   2. Traffic
-   3. Errors 
-   4. Saturation
+   1. Latency - Time taken by the host server to approve the request of a real user. 
+   2. Traffic -  The load users put on an application. All the users using an application are combined to measure the total load. Real-time monitoring is essential. 
+   3. Errors - Should be identified in real-time and, AI for application monitoring is the only solution. HTTP errors - rectified. 
+   4. Saturation - is defined as percentage of an application or software system being used. High saturation results in performance degradation. 
 
 ## Benefits of cloud monitoring
 
