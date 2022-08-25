@@ -6,6 +6,11 @@
 
 ## Four Golden Signals That Should Be Monitored.
 
+   1. Latency
+   2. Traffic
+   3. Errors 
+   4. Saturation
+
 ## Benefits of cloud monitoring
 
 - Monitoring is crucial to make sure that all the services which you are using on the cloud are running smoothly and efficiently. Such a strategy should focus on identifying when service-level objectives (SLOs) are not being met, likely negatively affecting the user experience. So, then what are the benefits of leveraging cloud monitoring tools? With cloud monitoring:
@@ -58,6 +63,8 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 - Provides a catalog of standard reports that you can use to analyze trends and monitor system performance
 - Provides various alert capabilities, including rules and triggers high resolutions alarms and sends notifications
 - Collects and provides a real-time presentation of operational data in form of key metrics like CPU utilization, disk storage etc. 
+
+
 
 ## What is Alert Management - Use cases?
 
