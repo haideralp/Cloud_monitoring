@@ -39,6 +39,11 @@
 5. **Virtual machine monitoring**
    - This technique is a simulation of a computer within a computer; that is, virtualization infrastructure and virtual machines. It’s usually scaled out in IaaS as a virtual server that hosts several virtual desktops. A monitoring application can track the users, traffic, and status of each machine. You get the benefits of traditional IT infrastructure monitoring with the added benefit of cloud monitoring solutions.
 
+## Diagram of Monitoring Alert and Management
+
+![image](https://user-images.githubusercontent.com/97620055/186612180-2a419b4f-b6b1-428e-9ba9-2ea813bd8a42.png)
+
+
 ## What is Amazon CloudWatch ?
 
 - Amazon CloudWatch is the component of Amazon Web Services that provides real-time monitoring of AWS resources and customer applications running on Amazon infrastructure.
@@ -64,8 +69,6 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 - Provides various alert capabilities, including rules and triggers high resolutions alarms and sends notifications
 - Collects and provides a real-time presentation of operational data in form of key metrics like CPU utilization, disk storage etc. 
 
-
-
 ## What is Alert Management - Use cases?
 
 - Alert management is a key part of managing modern, complex systems that are composed of many different APIs and microservices. Alerts are qualified, informational records used to assess and monitor systems to assess current or upcoming problems.
@@ -89,13 +92,12 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 ## Alert Management
 
 ## Creating An Alarm on AWS:
-    1. On the left panel in AWS, naviage to alarms and on top t
-
+   - On the left panel in AWS, naviage to alarms and create Alarm with relevant configurations. Deciding on range of metrics and values. I decided to do CPU utilisation > 20% for example below. Usually good practice to set up dashboard to view all your metrics. 
 
 ![CPU utilisation done](https://user-images.githubusercontent.com/97620055/186430366-1bb3fe33-a61b-47ad-b965-9f4f351fd832.PNG)
 
-
 ## Configuring SNS:
+   - Once alarm is set, configure under actions and edit to set up SNS notification. Provide your email address for alert user when triggered. 
 
 ![SNS subsconfirmed](https://user-images.githubusercontent.com/97620055/186430271-adb02dd0-6528-4f61-a283-9a733fa6ab0a.PNG)
 
@@ -111,8 +113,6 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 
 ![image](https://user-images.githubusercontent.com/97620055/186595686-89ec3558-a715-4ba7-873f-12f013fd9bf2.png)
 
-## AWS Logs Generation and Upload to S3 - 
+## Diagram Showcasing Autoscaling & Load Balancing 
 
-
-
-
+![image](https://user-images.githubusercontent.com/97620055/186613008-4358d007-bc5e-449e-8c7f-6e17e653f6c8.png)
