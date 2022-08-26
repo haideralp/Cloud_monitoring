@@ -118,6 +118,12 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 ![image](https://user-images.githubusercontent.com/97620055/186613008-4358d007-bc5e-449e-8c7f-6e17e653f6c8.png)
 
 
+
+## Architecture for Multi-AZs, ALB and ASG
+
+![image](https://user-images.githubusercontent.com/97620055/186875999-30611641-587f-48d8-9c73-ec1076a5e976.png)
+
+
 ## NPM Service Creation
 
 - Used Script As Below: 
@@ -141,9 +147,9 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 
 ![template build](https://user-images.githubusercontent.com/97620055/186874350-98111c8b-f5f9-4631-aa17-c1d7c5e76c47.PNG)
 
-## Creating Target Grouo
+## Load Balancer / Target Group
 
-## Create Auto Scaling Group
+## Auto Scaling Group Creation
 
 ## Debugging Issues
 
