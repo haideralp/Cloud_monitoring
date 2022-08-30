@@ -150,8 +150,10 @@ The following image shows the different AWS resources monitored by Amazon CloudW
 ## Load Balancer / Target Group
 
 ## Auto Scaling Group Creation
+- Autoscaling group (ASG) are created with follows steps. Screenshots below display the 
 
 ## Debugging Issues
 
 - User data - different shell than ec2 so when ec2 is stopped. 
 - Npm Service - delete and redit script to command. 
+- In sercicemd file need to specify (absolute path) 
