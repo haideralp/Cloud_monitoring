@@ -1,7 +1,7 @@
 # High Availability and Scalability
 
- - Autoscaling Groups - 
- - Load Balancing - 
+ - High Availability - 
+ - High Scalability - 
 
 ## Diagram Showcasing Autoscaling & Load Balancing 
 
