@@ -1,7 +1,11 @@
 # High Availability and Scalability
 
- - High Availability - 
- - High Scalability - 
+ - **High Availability (HA)** - It is a concept that involves the elimination of single points of failure to make sure that if one of the elements, such as a server, fails, the service is still available. High availability is often synonymous with high-availability systems, high-availability environments or high-availability servers. High availability enables your IT infrastructure to continue functioning even when some of its components fail.  
+ - 
+ - **High Scalability (HS)** - the ability to increase your capacity based on the increasing demand for traffic, memory, and or computing power. To scale horizontally (scaling in or out), you add more resources like servers to your system to spread out the workload across machines, which in turn increases performance and storage capacity. Vertical scaling (aka scaling up) describes adding additional resources to a system so that it meets demand. 
+
+ ![image](https://user-images.githubusercontent.com/97620055/187391579-b61959bd-ca70-4fde-9df9-5d63bbc14675.png)
+
 
 ## Diagram Showcasing Autoscaling & Load Balancing 
 
